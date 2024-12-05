@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="icone">
+    <file>icons.qrc</file>
+    <file>icons_rc.py</file>
+    <file>logo 1.png</file>
+    <file>voltar.png</file>
+    <file>voltar.png</file>
+  </qresource>
+</RCC>

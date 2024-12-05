@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="Icones">
+    <file>Icone (1).png</file>
+    <file>Icone (2).png</file>
+    <file>Icone (3).png</file>
+    <file>Icone (4).png</file>
+    <file>Icone (5).png</file>
+    <file>Icone (6).png</file>
+    <file>Icone (7).png</file>
+    <file>Icone (8).png</file>
+    <file>Icone (9).png</file>
+    <file>icons.qrc</file>
+    <file>icons_rc.py</file>
+    <file>logo 1.png</file>
+  </qresource>
+</RCC>

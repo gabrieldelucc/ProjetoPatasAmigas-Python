@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>981</width>
+    <height>647</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>10</y>
+     <width>621</width>
+     <height>621</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame {
+    background-color: #d3d3d3; /* Cinza claro */
+    border: 2px solid white; /* Borda branca */
+    border-radius: 15px; /* Borda arredondada */
+}
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>611</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">	QFrame {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb(0, 139, 139), stop:1 rgba(0, 139, 139));
+    border: none; /* Sem borda */
+    border-radius: 15px; /* Borda arredondada */
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>611</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>BusinessGrowth</family>
+       <pointsize>-1</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    font-size: 28px; /* Tamanho maior para maior presença */
+    font-family: BusinessGrowth; /* Fonte forte e comercial */
+    font-weight: bold; /* Negrito */
+    color: #333333; /* Cor do texto */
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Controle de Reclamações</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>60</y>
+       <width>611</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Tahoma,sans-serif</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    font-size: 16px; /* Tamanho menor */
+    font-family: 'Tahoma', sans-serif; /* Fonte sem ser negrito */
+    font-weight: normal; /* Sem negrito */
+    color: #333333; /* Cor do texto */
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;O que deseja fazer?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>130</y>
+      <width>201</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame {
+    background-color: #ffffff; /* Fundo branco */
+    border: 2px solid white; /* Borda branca */
+    border-radius: 15px; /* Borda arredondada */
+}
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="lbl_icone1">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>20</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="icone/icons.qrc">:/Icones/Icone (7).png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Btn_BanirUser">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>170</y>
+       <width>121</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #45a049;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 20px; /* Mais redondo */
+    border: 1px solid #388E3C;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+QPushButton:hover {
+    background-color: #ff6666;
+    transform: scale(1.05);
+}
+
+QPushButton:pressed {
+    background-color: #388E3C;
+    transform: scale(0.98);
+}
+
+QPushButton:focus {
+    outline: none;
+    border: 2px solid #66bb6a;
+    box-shadow: 0px 0px 8px rgba(255, 152, 0, 0.8);
+}
+
+QPushButton:disabled {
+    background-color: #bdbdbd;
+    color: #757575;
+    box-shadow: none;
+    transform: none;
+}
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>Fechar</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_5">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>110</y>
+       <width>201</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame {
+    background-color: #ffffff; /* Fundo branco */
+    border: 2px solid white; /* Borda branca */
+    border-radius: 15px; /* Borda arredondada */
+}
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>50</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../74472.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>191</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    font-size: 20px; 
+    font-family: 'Georgia', serif; 
+    color: #333333; 
+}</string>
+     </property>
+     <property name="text">
+      <string>Fechar Reclamação</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_6">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>130</y>
+      <width>201</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame {
+    background-color: #ffffff; /* Fundo branco */
+    border: 2px solid white; /* Borda branca */
+    border-radius: 15px; /* Borda arredondada */
+}
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="frame_7">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>90</y>
+       <width>201</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame {
+    background-color: #ffffff; /* Fundo branco */
+    border: 2px solid white; /* Borda branca */
+    border-radius: 15px; /* Borda arredondada */
+}
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_icone2">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>20</y>
+       <width>111</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="icone/icons.qrc">:/Icones/Icone (4).png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Btn_irparaRec">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>170</y>
+       <width>131</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #45a049;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 20px; /* Mais redondo */
+    border: 1px solid #388E3C;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+QPushButton:hover {
+    background-color: #9370DB;
+    transform: scale(1.05);
+}
+
+QPushButton:pressed {
+    background-color: #388E3C;
+    transform: scale(0.98);
+}
+
+QPushButton:focus {
+    outline: none;
+    border: 2px solid #66bb6a;
+    box-shadow: 0px 0px 8px rgba(255, 152, 0, 0.8);
+}
+
+QPushButton:disabled {
+    background-color: #bdbdbd;
+    color: #757575;
+    box-shadow: none;
+    transform: none;
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string>Usuarios</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>100</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    font-size: 18px; 
+    font-family: 'Georgia', serif; 
+    color: #333333; 
+}</string>
+     </property>
+     <property name="text">
+      <string>Vá para tela de </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>130</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    font-size: 20px; 
+    font-family: 'Georgia', serif; 
+    color: #333333; 
+}</string>
+     </property>
+     <property name="text">
+      <string>Usuarios</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_8">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>370</y>
+      <width>201</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame {
+    background-color: #ffffff; /* Fundo branco */
+    border: 2px solid white; /* Borda branca */
+    border-radius: 15px; /* Borda arredondada */
+}
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="lbl_icone3">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>20</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>icone/Icone (3).png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Btn_irparatelainicial2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>170</y>
+       <width>161</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #45a049;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 20px; /* Mais redondo */
+    border: 1px solid #388E3C;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+QPushButton:hover {
+    background-color: #9370DB;
+    transform: scale(1.05);
+}
+
+QPushButton:pressed {
+    background-color: #388E3C;
+    transform: scale(0.98);
+}
+
+QPushButton:focus {
+    outline: none;
+    border: 2px solid #66bb6a;
+    box-shadow: 0px 0px 8px rgba(255, 152, 0, 0.8);
+}
+
+QPushButton:disabled {
+    background-color: #bdbdbd;
+    color: #757575;
+    box-shadow: none;
+    transform: none;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Tela Inicial</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    font-size: 20px; 
+    font-family: 'Georgia', serif; 
+    color: #333333; 
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Vá para tela inicial </string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_9">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>370</y>
+      <width>201</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame {
+    background-color: #ffffff; /* Fundo branco */
+    border: 2px solid white; /* Borda branca */
+    border-radius: 15px; /* Borda arredondada */
+}
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="lbl_icone4">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>20</y>
+       <width>131</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="icone/icons.qrc">:/Icones/Icone (6).png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Btn_IrparaAdms">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>170</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #45a049;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 20px; /* Mais redondo */
+    border: 1px solid #388E3C;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+QPushButton:hover {
+    background-color: #9370DB;
+    transform: scale(1.05);
+}
+
+QPushButton:pressed {
+    background-color: #388E3C;
+    transform: scale(0.98);
+}
+
+QPushButton:focus {
+    outline: none;
+    border: 2px solid #66bb6a;
+    box-shadow: 0px 0px 8px rgba(255, 152, 0, 0.8);
+}
+
+QPushButton:disabled {
+    background-color: #bdbdbd;
+    color: #757575;
+    box-shadow: none;
+    transform: none;
+}
+</string>
+     </property>
+     <property name="text">
+      <string> Controle de Adms</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>110</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    font-size: 18px; 
+    font-family: 'Georgia', serif; 
+    color: #333333; 
+}</string>
+     </property>
+     <property name="text">
+      <string>Ir para controle de </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>140</y>
+       <width>161</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    font-size: 20px; 
+    font-family: 'Georgia', serif; 
+    color: #333333; 
+}</string>
+     </property>
+     <property name="text">
+      <string>Administradores</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>371</width>
+     <height>621</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableWidget {
+    background-color: #ffffff;
+    border: 1px solid #0056b3;
+    border-radius: 8px;
+    gridline-color: #0056b3;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    color: #333333;
+}
+
+QHeaderView::section {
+    background-color: #45a049;
+    color: white;
+    border: none;
+    padding: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+QTableWidget::item {
+    background-color: #ffffff;
+    padding: 8px;
+    border: none;
+}
+
+QTableWidget::item:hover {
+    background-color: #f5faff;
+    color: #333333;
+}
+
+QTableWidget::item:selected {
+    background-color: #45a049;
+    color: white;
+}
+
+QTableCornerButton::section {
+    background-color: #45a049;
+}
+
+QScrollBar:vertical {
+    border: none;
+    background-color: #f0f8ff;
+    width: 12px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #007bff;
+    min-height: 20px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: #0056b3;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    background: none;
+}
+
+</string>
+   </property>
+   <property name="editTriggers">
+    <set>QAbstractItemView::NoEditTriggers</set>
+   </property>
+   <property name="alternatingRowColors">
+    <bool>true</bool>
+   </property>
+   <property name="sortingEnabled">
+    <bool>true</bool>
+   </property>
+   <attribute name="horizontalHeaderMinimumSectionSize">
+    <number>1</number>
+   </attribute>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icone/icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

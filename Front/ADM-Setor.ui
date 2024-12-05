@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>698</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>230</y>
+      <width>871</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #008b8b;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; font-weight:600;&quot;&gt;Bem vindo, escolha um nível de ADM para acessar:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_icon2">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>360</y>
+      <width>171</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Front2/icone/Icone (13).png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Btn_Adm1">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>540</y>
+      <width>261</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: white;
+    color: #18486b;  /* Azul escuro */
+    border: 2px solid #0A3D62;
+    border-radius: 8px;
+    font-family: 'Baloo Tammudu 2';
+    font-size: 30px;
+}
+
+QPushButton:hover {
+    background-color: #0A3D62;
+    color: white;
+}
+
+QPushButton:pressed {
+    background-color: #05445E;  /* Azul mais escuro no clique */
+}</string>
+    </property>
+    <property name="text">
+     <string>Ver ADM´s nível 1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_icon3">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>360</y>
+      <width>181</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Front2/icone/Icone (14).png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Btn_Adm3">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>540</y>
+      <width>281</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: white;
+    color: #18486b;  /* Azul escuro */
+    border: 2px solid #0A3D62;
+    border-radius: 8px;
+    font-family: 'Baloo Tammudu 2';
+    font-size: 30px;
+}
+
+QPushButton:hover {
+    background-color: #0A3D62;
+    color: white;
+}
+
+QPushButton:pressed {
+    background-color: #05445E;  /* Azul mais escuro no clique */
+}</string>
+    </property>
+    <property name="text">
+     <string>Ver ADM´s nível 3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_icon4">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>360</y>
+      <width>171</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Front2/icone/icone (15).png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Btn_Adm2">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>540</y>
+      <width>271</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: white;
+    color: #18486b;  /* Azul escuro */
+    border: 2px solid #0A3D62;
+    border-radius: 8px;
+    font-family: 'Baloo Tammudu 2';
+    font-size: 30px;
+}
+
+QPushButton:hover {
+    background-color: #0A3D62;
+    color: white;
+}
+
+QPushButton:pressed {
+    background-color: #05445E;  /* Azul mais escuro no clique */
+}</string>
+    </property>
+    <property name="text">
+     <string>Ver ADM´s nível 2</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>1351</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">	QFrame {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb(0, 139, 139), stop:1 rgba(0, 139, 139));
+    border: none; /* Sem borda */
+    border-radius: 20px; /* Borda arredondada */
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="lbl_icon1">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>0</y>
+       <width>481</width>
+       <height>201</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../Front2/icone/logo 1.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1366</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="icone/icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

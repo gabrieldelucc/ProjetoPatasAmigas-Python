@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>599</width>
+    <height>552</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>749</width>
+     <height>555</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb(100, 156, 156), stop:1 rgba(100, 156, 156));
+
+border-radius: 10px</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QFrame" name="frame_3">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>45</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:transparent;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>0</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>icone/fechar.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>10</y>
+         <width>261</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Verdana</family>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame_4">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>749</width>
+        <height>555</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:transparent;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QFrame" name="frame_7">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>30</y>
+         <width>151</width>
+         <height>151</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/icone/logo 1.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="whatsThis">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/icone/logo 1.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QFrame { 
+ background-color:#e3e8e8;
+ border-radius: 60px;
+ border: 2px solid rgb(45,45,45)
+}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="lbl_logo">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>151</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>icone/logo 1.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame_5">
+      <property name="styleSheet">
+       <string notr="true">background:transparent;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QFrame" name="frame_6">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QWidget" name="verticalLayoutWidget_2">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>0</y>
+            <width>351</width>
+            <height>211</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_4">
+           <item>
+            <widget class="QPushButton" name="Btn_CtrUser">
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: #35a040; /* Azul mais claro */
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 1px solid #0056b3; /* Borda fina de um tom mais escuro */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15); /* Sombra leve */
+}
+QPushButton{
+ color:rgb(216, 216, 216);
+ border-radius: 5px;
+ border: 2px solid rgb(27, 29, 35); 
+}
+QPushButton:hover{
+ color: rgb(216, 216, 216);
+ borders-radius: 5px;
+ border: 2px solid rgb(48, 52, 52);
+}
+
+QPushButton:hover {
+    background-color: #99db70; /* Laranja mais vibrante ao passar o mouse */
+    transform: scale(1.05); /* Leve aumento no tamanho */
+}
+
+
+
+
+</string>
+             </property>
+             <property name="text">
+              <string>Controle de Usuarios</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton">
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: #45a049; /* Azul mais claro */
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 1px solid #0056b3; /* Borda fina de um tom mais escuro */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15); /* Sombra leve */
+}
+QPushButton{
+ color:rgb(216, 216, 216);
+ border-radius: 5px;
+ border: 2px solid rgb(27, 29, 35); 
+}
+QPushButton:hover{
+ color: rgb(216, 216, 216);
+ borders-radius: 5px;
+ border: 2px solid rgb(48, 52, 52);
+}
+
+QPushButton:hover {
+    background-color: #99db70; /* Laranja mais vibrante ao passar o mouse */
+    transform: scale(1.05); /* Leve aumento no tamanho */
+}
+
+
+
+
+</string>
+             </property>
+             <property name="text">
+              <string>Controle de Adms</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="Btn_reclamacao">
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: #45a049; /* Azul mais claro */
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 1px solid #0056b3; /* Borda fina de um tom mais escuro */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15); /* Sombra leve */
+}
+QPushButton{
+ color:rgb(216, 216, 216);
+ border-radius: 5px;
+ border: 2px solid rgb(27, 29, 35); 
+}
+QPushButton:hover{
+ color: rgb(216, 216, 216);
+ borders-radius: 5px;
+ border: 2px solid rgb(48, 52, 52);
+}
+
+QPushButton:hover {
+    background-color: #99db70; /* Laranja mais vibrante ao passar o mouse */
+    transform: scale(1.05); /* Leve aumento no tamanho */
+}
+
+
+
+
+</string>
+             </property>
+             <property name="text">
+              <string>Ver Reclamações</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icone/icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

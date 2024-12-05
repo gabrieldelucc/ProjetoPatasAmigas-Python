@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>626</width>
+    <height>323</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="lbl_logo">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>50</y>
+      <width>231</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="icone/icons.qrc">:/Icones/logo 1.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>30</y>
+      <width>341</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QPushButton" name="pushButton_5">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+background-color: #008b8b;
+color: white;
+border: none;
+border-radius: 5px;
+padding: 10 px 20px;
+font-size: 16px;
+}
+
+QPushButton:hover {
+ background-color: #008b8b;
+}
+
+QPushButton:pressed {
+background-color: #3e8e41;
+}</string>
+         </property>
+         <property name="text">
+          <string>Ver ADM´s nível 1</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_6">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+background-color: #008b8b;
+color: white;
+border: none;
+border-radius: 5px;
+padding: 10 px 20px;
+font-size: 16px;
+}
+
+QPushButton:hover {
+ background-color: #008b8b;
+}
+
+QPushButton:pressed {
+background-color: #3e8e41;
+}</string>
+         </property>
+         <property name="text">
+          <string>Ver ADM´s nível 2</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_7">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+background-color: #008b8b;
+color: white;
+border: none;
+border-radius: 5px;
+padding: 10 px 20px;
+font-size: 16px;
+}
+
+QPushButton:hover {
+ background-color: #008b8b;
+}
+
+QPushButton:pressed {
+background-color: #3e8e41;
+}</string>
+         </property>
+         <property name="text">
+          <string>Ver ADM´s nível 3</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+background-color: #008b8b;
+color: white;
+border: none;
+border-radius: 5px;
+padding: 10 px 20px;
+font-size: 16px;
+}
+
+QPushButton:hover {
+ background-color: #008b8b;
+}
+
+QPushButton:pressed {
+background-color: #3e8e41;
+}</string>
+         </property>
+         <property name="text">
+          <string>Controle de usuários</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+background-color: #008b8b;
+color: white;
+border: none;
+border-radius: 5px;
+padding: 10 px 20px;
+font-size: 16px;
+}
+
+QPushButton:hover {
+ background-color: #008b8b;
+}
+
+QPushButton:pressed {
+background-color: #3e8e41;
+}</string>
+         </property>
+         <property name="text">
+          <string>Ir a tela de reclamações</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_4">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+background-color: #008b8b;
+color: white;
+border: none;
+border-radius: 5px;
+padding: 10 px 20px;
+font-size: 16px;
+}
+
+QPushButton:hover {
+ background-color: #008b8b;
+}
+
+QPushButton:pressed {
+background-color: #3e8e41;
+}</string>
+         </property>
+         <property name="text">
+          <string>Voltar</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>626</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="icone/icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

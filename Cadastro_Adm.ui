@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1196</width>
+    <height>799</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>521</width>
+     <height>791</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #008b8b;
+
+border-radius: 10px</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="lbl_logo">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>40</y>
+      <width>521</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="icone/icons.qrc">:/icone/logo 1.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>400</y>
+      <width>521</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>2</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    font-size: 25px; 
+    text-align: center; 
+}
+</string>
+    </property>
+    <property name="text">
+     <string> Bem Vindo! </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame_3">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>-10</y>
+     <width>661</width>
+     <height>801</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame {
+    background-color: #ffffff; /* Fundo branco */
+    border: none; /* Sem borda */
+    border-radius: 15px; /* Bordas arredondadas */
+}
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>701</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    font-size: 20px; 
+    text-align: center; 
+    font-weight: bold; 
+    color: #3CB371;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Cadastre Sua Conta</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txt_nomeadm">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>150</y>
+      <width>311</width>
+      <height>42</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    background-color: white; /* Fundo branco */
+    border: 2px solid black; /* Borda preta */
+    border-radius: 6px; 
+    padding: 10px 15px; 
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #333333; 
+    transition: background-color 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15); 
+}
+
+QLineEdit:hover {
+    border: 2px solid black; /* Mantém a borda preta ao passar o mouse */
+    background-color: #f5faff; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+QLineEdit:focus {
+    border: 2px solid black; /* Mantém a borda preta ao focar */
+    background-color: white; /* Fundo branco */
+    box-shadow: 0px 0px 10px rgba(102, 153, 153, 0.5);
+    outline: none;
+}
+
+QLineEdit:disabled {
+    background-color: #ebebeb; 
+    border: 2px solid rgba(179, 214, 214, 255);
+    color: #a0a0a0;
+    box-shadow: none;
+}
+
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>Digite nome e sobrenome</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>150</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>icone/74472.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>92</y>
+      <width>631</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 18pt &quot;Verdana&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Inisira seu nome&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>200</y>
+      <width>527</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 18pt &quot;Verdana&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Inisira seu CPF&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txt_cpf">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>240</y>
+      <width>321</width>
+      <height>42</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    background-color: white; /* Fundo branco */
+    border: 2px solid black; /* Borda preta */
+    border-radius: 6px; 
+    padding: 10px 15px; 
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #333333; 
+    transition: background-color 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15); 
+}
+
+QLineEdit:hover {
+    border: 2px solid black; /* Mantém a borda preta ao passar o mouse */
+    background-color: #f5faff; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+QLineEdit:focus {
+    border: 2px solid black; /* Mantém a borda preta ao focar */
+    background-color: white; /* Fundo branco */
+    box-shadow: 0px 0px 10px rgba(102, 153, 153, 0.5);
+    outline: none;
+}
+
+QLineEdit:disabled {
+    background-color: #ebebeb; 
+    border: 2px solid rgba(179, 214, 214, 255);
+    color: #a0a0a0;
+    box-shadow: none;
+}
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>Ex: 000.000.000-00</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>240</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>icone/10122305.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>300</y>
+      <width>391</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 18pt &quot;Verdana&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Digite o seu setor&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txt_cpf_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>340</y>
+      <width>321</width>
+      <height>42</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    background-color: white; /* Fundo branco */
+    border: 2px solid black; /* Borda preta */
+    border-radius: 6px; 
+    padding: 10px 15px; 
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #333333; 
+    transition: background-color 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15); 
+}
+
+QLineEdit:hover {
+    border: 2px solid black; /* Mantém a borda preta ao passar o mouse */
+    background-color: #f5faff; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+QLineEdit:focus {
+    border: 2px solid black; /* Mantém a borda preta ao focar */
+    background-color: white; /* Fundo branco */
+    box-shadow: 0px 0px 10px rgba(102, 153, 153, 0.5);
+    outline: none;
+}
+
+QLineEdit:disabled {
+    background-color: #ebebeb; 
+    border: 2px solid rgba(179, 214, 214, 255);
+    color: #a0a0a0;
+    box-shadow: none;
+}
+
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>Ex: Adm, Tecnologia</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>340</y>
+      <width>47</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>icone/5088.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>390</y>
+      <width>529</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 18pt &quot;Verdana&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Insira seu e-mail&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txt_email">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>430</y>
+      <width>321</width>
+      <height>42</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    background-color: white; /* Fundo branco */
+    border: 2px solid black; /* Borda preta */
+    border-radius: 6px; 
+    padding: 10px 15px; 
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #333333; 
+    transition: background-color 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15); 
+}
+
+QLineEdit:hover {
+    border: 2px solid black; /* Mantém a borda preta ao passar o mouse */
+    background-color: #f5faff; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+QLineEdit:focus {
+    border: 2px solid black; /* Mantém a borda preta ao focar */
+    background-color: white; /* Fundo branco */
+    box-shadow: 0px 0px 10px rgba(102, 153, 153, 0.5);
+    outline: none;
+}
+
+QLineEdit:disabled {
+    background-color: #ebebeb; 
+    border: 2px solid rgba(179, 214, 214, 255);
+    color: #a0a0a0;
+    box-shadow: none;
+}
+
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>e-maildecadastro@gmail.com</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>430</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>icone/561188.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>480</y>
+      <width>529</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 18pt &quot;Verdana&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Insira sua senha&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txt_senha">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>530</y>
+      <width>321</width>
+      <height>42</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    background-color: white; /* Fundo branco */
+    border: 2px solid black; /* Borda preta */
+    border-radius: 6px; 
+    padding: 10px 15px; 
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #333333; 
+    transition: background-color 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15); 
+}
+
+QLineEdit:hover {
+    border: 2px solid black; /* Mantém a borda preta ao passar o mouse */
+    background-color: #f5faff; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+QLineEdit:focus {
+    border: 2px solid black; /* Mantém a borda preta ao focar */
+    background-color: white; /* Fundo branco */
+    box-shadow: 0px 0px 10px rgba(102, 153, 153, 0.5);
+    outline: none;
+}
+
+QLineEdit:disabled {
+    background-color: #ebebeb; 
+    border: 2px solid rgba(179, 214, 214, 255);
+    color: #a0a0a0;
+    box-shadow: none;
+}
+</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Senha123</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>530</y>
+      <width>47</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>icone/password_3715.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>580</y>
+      <width>529</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 18pt &quot;Verdana&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Confirme a senha&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txt_rsenha">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>620</y>
+      <width>321</width>
+      <height>42</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    background-color: white; /* Fundo branco */
+    border: 2px solid black; /* Borda preta */
+    border-radius: 6px; 
+    padding: 10px 15px; 
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #333333; 
+    transition: background-color 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15); 
+}
+
+QLineEdit:hover {
+    border: 2px solid black; /* Mantém a borda preta ao passar o mouse */
+    background-color: #f5faff; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+QLineEdit:focus {
+    border: 2px solid black; /* Mantém a borda preta ao focar */
+    background-color: white; /* Fundo branco */
+    box-shadow: 0px 0px 10px rgba(102, 153, 153, 0.5);
+    outline: none;
+}
+
+QLineEdit:disabled {
+    background-color: #ebebeb; 
+    border: 2px solid rgba(179, 214, 214, 255);
+    color: #a0a0a0;
+    box-shadow: none;
+}
+</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Senha123</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>610</y>
+      <width>47</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>icone/password_3715.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Btn_Cadastrar">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>680</y>
+      <width>321</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #45a049;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 20px; /* Mais redondo */
+    border: 1px solid #388E3C;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+QPushButton:hover {
+    background-color: #9370DB;
+    transform: scale(1.05);
+}
+
+QPushButton:pressed {
+    background-color: #388E3C;
+    transform: scale(0.98);
+}
+
+QPushButton:focus {
+    outline: none;
+    border: 2px solid #66bb6a;
+    box-shadow: 0px 0px 8px rgba(255, 152, 0, 0.8);
+}
+
+QPushButton:disabled {
+    background-color: #bdbdbd;
+    color: #757575;
+    box-shadow: none;
+    transform: none;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Cadastrar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_voltar">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>690</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="icone/icons.qrc">:/icone/voltar.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icone/icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>
